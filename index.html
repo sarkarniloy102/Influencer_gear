@@ -26,6 +26,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        'primary-clr': '#E02C6D',
                     }
                 }
             }
@@ -63,7 +64,7 @@
             </div>
             <div>
                 <a href="">
-                    <h3 class="text-2xl font-bold">Influencer products</h3>
+                    <h3 class="text-xl md:text-2xl font-bold">Influencer products</h3>
                 </a>
             </div>
             <div class="flex items-center gap-10 font-bold">
@@ -73,11 +74,33 @@
                     <li><a href="">Sign up</a></li>
                     <li><a href="">Log in</a></li>
                 </ul>
-                <a href=""><i class="fa-solid fa-magnifying-glass text-2xl hidden md:flex lg:flex"></i></a>
+                <a class="text-2xl hidden md:flex lg:flex" href=""><i class="fa-solid fa-magnifying-glass "></i></a>
                 <a href=""><i class="fa-solid fa-cart-shopping text-2xl"></i></a>
             </div>
         </nav>
         <!-- end of nav section -->
+        <!-- start banner section -->
+        <div class="mt-14 flex flex-col-reverse lg:flex-row gap-16 items-center">
+            <!-- banner description -->
+            <div class="space-y-4 text-center lg:text-left">
+                <h2 class="text-5xl font-bold">Start your Journey as <br>
+                    Influencer</h2>
+                <p class="font-semi-bold">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem vestibulum sed scelerisque eros. Lectus
+                    faucibus.
+                </p>
+                <button class="btn bg-primary-clr text-white">
+                    Preebook now
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+            <!-- banner image -->
+            <div class="relative">
+                <img class="relative" src="images/Circle design.svg" alt="">
+                <img class="absolute top-0 left-0" src="images/main-camera.png" alt="">
+            </div>
+        </div>
+        <!-- end banner section -->
 
     </header>
     <!-- header part end -->
